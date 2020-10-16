@@ -165,3 +165,30 @@ hr {
     padding: 90px 0 0 35px;
     color: #ffffff;
 }
+
+
+/* Social */
+
+.social {
+    margin: 50px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 2.5rem;
+}
