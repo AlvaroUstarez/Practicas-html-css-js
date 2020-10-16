@@ -133,3 +133,35 @@ hr {
 .news-cards a:hover {
     text-decoration: underline;
 }
+
+
+/* CARDS BANNER ONE */
+
+.cards-banner-one {
+    width: 100%;
+    height: 350px;
+    background: url(./img/tech-red.jpg) no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-one .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #ffffff;
+}
+
+
+/* CARDS BANNER TWO */
+
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    background: url(./img/image-five.jpg) no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-two .content {
+    width: 50%;
+    padding: 90px 0 0 35px;
+    color: #ffffff;
+}
