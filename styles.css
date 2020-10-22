@@ -78,6 +78,7 @@ ul {
     right: 30px;
     z-index: 2;
     font-size: 1.5rem;
+    display: none;
 }
 
 hr {
@@ -204,6 +205,9 @@ hr {
 }
 
 @media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
     .nav-main ul.nav-menu {
         display: block;
         position: absolute;
@@ -229,5 +233,18 @@ hr {
     .cards-banner-one .content,
     .cards-banner-two .content {
         width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .news-cards {
+        grid-template-columns: 1fr;
+    }
+    .news-cards img {
+        height: 220px;
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+        width: 100%;
     }
 }
