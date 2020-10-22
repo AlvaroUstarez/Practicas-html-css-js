@@ -71,6 +71,15 @@ ul {
 
 /* SHOWCASE */
 
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+
 hr {
     margin: 10px;
 }
@@ -80,6 +89,7 @@ hr {
     height: 550px;
     font-size: 15px;
     background: url(./img/showcase2litle.jpg) no-repeat center center/cover;
+    padding: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -191,4 +201,32 @@ hr {
 
 .links a i {
     font-size: 2.5rem;
+}
+
+@media (max-width: 700px) {
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        opacity: .8;
+        height: 100%;
+        /* transform: translateX(-400px); */
+        visibility: hidden;
+    }
+    .nav-main ul.nav-menu.show {
+        visibility: visible;
+        /* transform: translateX(-20px); */
+    }
+    .nav-main ul.nav-menu-right {
+        margin-right: 20px;
+    }
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+        width: 80%;
+    }
 }
