@@ -216,6 +216,7 @@ hr {
         visibility: hidden;
     }
     .nav-main ul.nav-menu.show {
+        transition: transform 1;
         visibility: visible;
         /* transform: translateX(-20px); */
     }
